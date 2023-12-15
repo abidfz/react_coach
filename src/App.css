@@ -1,9 +1,11 @@
 :root {
     --color-bg: #171717;
     --color-bg-secondary: rgb(50, 49, 49);
-    --primary-color: #e8e8e8;
-    --secondary-color: rgb(244, 67, 54);
-    --gradient-color: linear-gradient(161deg, rgba(244, 67, 54, 1) 0%, rgba(244, 67, 54, 1) 50%, rgba(238, 176, 130, 1) 100%);
+    --primary-color: #f0f0f0;
+    /* --secondary-color: rgb(244, 67, 54); */
+    --secondary-color:rgb(197,90,36);
+   /* --gradient-color: linear-gradient(161deg, rgba(244, 67, 54, 1) 0%, rgba(244, 67, 54, 1) 50%, rgba(238, 176, 130, 1) 100%); */
+    --gradient-color: linear-gradient(144deg, rgba(197, 90, 36, 1) 0%, rgba(255, 134, 19, 1) 100%);
     --font-family:'Kalnia', serif;
 }
 
@@ -17,7 +19,7 @@ body{
     background: var(--color-bg);
     color: var(--primary-color);
     overflow-x: hidden;
-    letter-spacing: 3px;
+    letter-spacing: 2px;
 }
 a{
     color: unset;
@@ -31,7 +33,7 @@ a{
 margin: 4rem 6rem;
 }
 
-@media screen and (max-width: 950px) {
+@media (min-width: 551px) and (max-width: 969px) {
     .section__padding {
       padding: 4rem;
     }
@@ -39,14 +41,18 @@ margin: 4rem 6rem;
     .section__margin {
       margin: 4rem;
     }
+    body{
+      background: rgb(95, 12, 12);
+    }
   }
   
-  @media screen and (max-width: 550px) {
+  @media (max-width: 550px) {
     .section__padding {
       padding: 4rem 2rem;
     }
   
     .section__margin {
       margin: 4rem 2rem;
-    }  
+    } 
+   
   }

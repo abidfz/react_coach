@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { RiMenu3Line, RiCloseLine } from "react-icons/ri";
 import "./navbar.css";
+import logo from "../../assets/logo.png";
 import { Link } from "react-scroll";
 
 const Navbar = () => {
@@ -8,18 +9,17 @@ const Navbar = () => {
   return (
     <nav className="app__navbar">
       <div className="app__navbar_logo">
-        Logo
-        <img src="" alt="logo" />
+        <img src={logo} alt="logo" />
       </div>
       <div className="app__navbar_menu-large">
         <div className="app__navbar_menu-links">
           <Link
             className="app__navbar_menu-item"
             activeClass="active"
-            to=""
+            to="home"
             spy={true}
             smooth={true}
-            offdet={-100}
+            offdet={-50}
             duration={500}
           >
             Accueil
@@ -30,7 +30,7 @@ const Navbar = () => {
             to=""
             spy={true}
             smooth={true}
-            offdet={-100}
+            offdet={-50}
             duration={500}
           >
             À propos
@@ -41,7 +41,7 @@ const Navbar = () => {
             to=""
             spy={true}
             smooth={true}
-            offdet={-100}
+            offdet={-50}
             duration={500}
           >
             Tarifs
@@ -52,7 +52,7 @@ const Navbar = () => {
             to=""
             spy={true}
             smooth={true}
-            offdet={-100}
+            offdet={-50}
             duration={500}
           >
             Témoignages
@@ -80,10 +80,10 @@ const Navbar = () => {
               <Link
                 className="app__navbar_menu-item"
                 activeClass="active"
-                to=""
+                to="home"
                 spy={true}
                 smooth={true}
-                offdet={-100}
+                offdet={-50}
                 duration={500}
               >
                 Accueil
@@ -94,7 +94,7 @@ const Navbar = () => {
                 to=""
                 spy={true}
                 smooth={true}
-                offdet={-100}
+                offdet={-50}
                 duration={500}
               >
                 À propos
@@ -105,7 +105,7 @@ const Navbar = () => {
                 to=""
                 spy={true}
                 smooth={true}
-                offdet={-100}
+                offdet={-50}
                 duration={500}
               >
                 Tarifs
@@ -116,7 +116,7 @@ const Navbar = () => {
                 to=""
                 spy={true}
                 smooth={true}
-                offdet={-100}
+                offdet={-50}
                 duration={500}
               >
                 Témoignages
