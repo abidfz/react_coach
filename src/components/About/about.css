@@ -1,0 +1,40 @@
+.app__about h2{
+    text-align: center;
+
+}
+.app__about p{
+    margin: 1rem 0 4rem 0;
+}
+.app__about-card{
+    background: var(--color-bg-secondary);
+    width: 80%;
+    margin: 1rem auto;
+    padding: 1rem 3rem;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    transition: 0.5s;
+}
+.app__about-card:hover{
+    transform: scale(1.1);
+}
+.app__about-card-img{
+    margin-right: 2rem;
+    font-size: 3rem;
+    color: var(--secondary-color);
+}
+.app__about-card h3{
+    font-family: var(--font-family);
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+}
+@media (min-width: 551px) and (max-width: 969px) {
+}
+  
+@media (max-width: 550px) {
+    .app__about-card{
+        width: 100%;
+        flex-direction: column;
+        padding: 1rem 2rem;
+    }
+}

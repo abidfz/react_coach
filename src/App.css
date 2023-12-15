@@ -25,6 +25,9 @@ a{
     color: unset;
     text-decoration: none;
 }
+li{
+  list-style: none;
+}
 .section__padding {
     padding: 4rem 6rem;
 }
@@ -37,20 +40,15 @@ margin: 4rem 6rem;
     .section__padding {
       padding: 4rem;
     }
-  
     .section__margin {
       margin: 4rem;
     }
-    body{
-      background: rgb(95, 12, 12);
-    }
   }
   
-  @media (max-width: 550px) {
+@media (max-width: 550px) {
     .section__padding {
       padding: 4rem 2rem;
     }
-  
     .section__margin {
       margin: 4rem 2rem;
     } 

@@ -27,7 +27,7 @@ const Navbar = () => {
           <Link
             className="app__navbar_menu-item"
             activeClass="active"
-            to=""
+            to="about"
             spy={true}
             smooth={true}
             offdet={-50}
@@ -91,7 +91,7 @@ const Navbar = () => {
               <Link
                 className="app__navbar_menu-item"
                 activeClass="active"
-                to=""
+                to="about"
                 spy={true}
                 smooth={true}
                 offdet={-50}
