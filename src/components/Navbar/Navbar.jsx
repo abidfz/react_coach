@@ -19,7 +19,7 @@ const Navbar = () => {
             to="home"
             spy={true}
             smooth={true}
-            offdet={-50}
+            offset={-50}
             duration={500}
           >
             Accueil
@@ -30,7 +30,7 @@ const Navbar = () => {
             to="about"
             spy={true}
             smooth={true}
-            offdet={-50}
+            offset={-50}
             duration={500}
           >
             À propos
@@ -38,10 +38,10 @@ const Navbar = () => {
           <Link
             className="app__navbar_menu-item"
             activeClass="active"
-            to=""
+            to="price"
             spy={true}
             smooth={true}
-            offdet={-50}
+            offset={-50}
             duration={500}
           >
             Tarifs
@@ -49,10 +49,10 @@ const Navbar = () => {
           <Link
             className="app__navbar_menu-item"
             activeClass="active"
-            to=""
+            to="review"
             spy={true}
             smooth={true}
-            offdet={-50}
+            offset={-50}
             duration={500}
           >
             Témoignages
@@ -83,7 +83,7 @@ const Navbar = () => {
                 to="home"
                 spy={true}
                 smooth={true}
-                offdet={-50}
+                offset={-50}
                 duration={500}
               >
                 Accueil
@@ -94,7 +94,7 @@ const Navbar = () => {
                 to="about"
                 spy={true}
                 smooth={true}
-                offdet={-50}
+                offset={-50}
                 duration={500}
               >
                 À propos
@@ -102,10 +102,10 @@ const Navbar = () => {
               <Link
                 className="app__navbar_menu-item"
                 activeClass="active"
-                to=""
+                to="price"
                 spy={true}
                 smooth={true}
-                offdet={-50}
+                offset={-50}
                 duration={500}
               >
                 Tarifs
@@ -113,10 +113,10 @@ const Navbar = () => {
               <Link
                 className="app__navbar_menu-item"
                 activeClass="active"
-                to=""
+                to="review"
                 spy={true}
                 smooth={true}
-                offdet={-50}
+                offset={-50}
                 duration={500}
               >
                 Témoignages

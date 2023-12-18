@@ -1,0 +1,65 @@
+.app__price h3{
+    text-align: center;
+    color: var(--secondary-color);
+    font-size: 3rem;
+    margin-bottom: 3rem;
+}
+.app__price-cards{
+    display: flex;
+}
+
+.app__price-card{
+    background: var(--color-bg-secondary);
+    margin: 1rem auto;
+    padding: 1rem 3rem;
+    border-radius: 5px;
+    transition: 0.5s;
+}
+.app__price-card:hover{
+    transform: scale(1.1);
+}
+.app__price-card h4{
+    color: var(--secondary-color);
+    font-size: 2rem;
+    text-align: center;
+    margin: 2rem 0;
+}
+.app__price-card_item {
+    line-height: 30px;
+}
+.app__price-card_item span{
+    color: var(--secondary-color);
+    margin-right: 1rem;
+    font-size: 0.7rem;
+}
+.app__price-card-footer{
+    margin: 2rem 0;
+    color: var(--secondary-color);
+    font-size: 1.5rem;
+}
+.app__price-card-footer span{
+    color: var(--primary-color);
+    opacity: 0.5;
+    font-size: 0.7rem;
+}
+@media (min-width: 970px){
+
+}
+@media (min-width: 551px) and (max-width: 969px){
+    .app__price-cards{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .app__price-card{
+        min-width: 45%;
+    }
+
+}
+@media (max-width: 550px){
+    .app__price-cards{
+        flex-direction: column;
+    }
+    .app__price-card{
+        min-width: 80%;
+    }
+}
