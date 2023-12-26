@@ -58,7 +58,9 @@ const Navbar = () => {
             Témoignages
           </Link>
         </div>
-        <div className="app__navbar_btn">Contact</div>
+        <div className="app__navbar_btn" to="contact">
+          Contact
+        </div>
       </div>
       <div className="app__navbar_menu-small">
         {toggleMenu ? (
@@ -122,7 +124,9 @@ const Navbar = () => {
                 Témoignages
               </Link>
             </div>
-            <div className="app__navbar_btn">Contact</div>
+            <div className="app__navbar_btn" to="contact">
+              Contact
+            </div>
           </div>
         )}{" "}
       </div>

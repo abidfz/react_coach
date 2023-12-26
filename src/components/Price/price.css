@@ -11,7 +11,7 @@
 .app__price-card{
     background: var(--color-bg-secondary);
     margin: 1rem auto;
-    padding: 1rem 3rem;
+    padding: 1rem 2rem;
     border-radius: 5px;
     transition: 0.5s;
 }
@@ -51,7 +51,7 @@
         flex-wrap: wrap;
     }
     .app__price-card{
-        min-width: 45%;
+        min-width: 35%;
     }
 
 }

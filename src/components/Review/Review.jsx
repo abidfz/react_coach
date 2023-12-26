@@ -8,11 +8,11 @@ const Review = () => {
   const responsive = {
     desktop: {
       breakpoint: { max: 4000, min: 970 },
-      items: 3,
+      items: 2,
     },
     tablet: {
       breakpoint: { max: 969, min: 551 },
-      items: 2,
+      items: 1,
     },
     mobile: {
       breakpoint: { max: 550, min: 0 },
