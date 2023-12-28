@@ -1,13 +1,13 @@
 import React, { useState } from "react";
 import { RiMenu3Line, RiCloseLine } from "react-icons/ri";
 import "./navbar.css";
-import logo from "../../assets/logo.png";
+import logo from "../../assets/logocs.png";
 import { Link } from "react-scroll";
 
 const Navbar = () => {
   const [toggleMenu, setToggleMenu] = useState(false);
   return (
-    <nav className="app__navbar">
+    <nav className="app__navbar section__padding">
       <div className="app__navbar_logo">
         <img src={logo} alt="logo" />
       </div>
@@ -128,7 +128,7 @@ const Navbar = () => {
               Contact
             </div>
           </div>
-        )}{" "}
+        )}
       </div>
     </nav>
   );

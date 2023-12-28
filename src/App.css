@@ -35,7 +35,12 @@ li{
 .section__margin {
 margin: 4rem 6rem;
 }
-
+h2{
+  text-align: center;
+  color: var(--secondary-color);
+  font-size: 3rem;
+  margin-bottom: 3rem;
+}
 @media (min-width: 551px) and (max-width: 969px) {
     .section__padding {
       padding: 4rem;

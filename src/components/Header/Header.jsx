@@ -11,7 +11,7 @@ const Header = () => {
         <h1>Name</h1>
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet ratione
-          ipsum voluptatem?
+          ipsum voluptatem
         </p>
       </div>
     </section>

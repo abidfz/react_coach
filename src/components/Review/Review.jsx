@@ -7,15 +7,16 @@ import { RxAvatar } from "react-icons/rx";
 const Review = () => {
   const responsive = {
     desktop: {
-      breakpoint: { max: 4000, min: 970 },
-      items: 2,
+      breakpoint: { max: 4000, min: 1230 },
+      items: 3,
+      slidesToSlide: 2,
     },
     tablet: {
-      breakpoint: { max: 969, min: 551 },
-      items: 1,
+      breakpoint: { max: 1229, min: 768 },
+      items: 2,
     },
     mobile: {
-      breakpoint: { max: 550, min: 0 },
+      breakpoint: { max: 767, min: 0 },
       items: 1,
     },
   };

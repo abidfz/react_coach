@@ -1,11 +1,8 @@
-.app__review h2{
-    text-align: center;
-    color: var(--secondary-color);
-    font-size: 3rem;
-    margin-bottom: 3rem;
+.app-caroussel{
+    background: var(--color-bg-secondary);
 }
 .app-caroussel-card{
-    background: var(--color-bg-secondary);
+    background: var(--color-bg);
     border-radius: 5px;
     margin: 2rem;
     padding: 1.5rem;
@@ -15,15 +12,14 @@
     transform: scale(1.1);
 }
 */
-.app-caroussel-container{
-    text-align-last: justify;
-}
+
 .app-caroussel-info-img{
     font-size: 2rem;
 }
 .app-caroussel-info h3{
     font-style: italic;
     font-size: 0.8rem;
+    color: var(--color-bg-secondary);
 }
 .app-caroussel-container span{
     color: var(--secondary-color);
