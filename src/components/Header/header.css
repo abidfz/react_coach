@@ -17,7 +17,6 @@
     justify-content: center;
     flex: 1;
     align-items: center;
-    margin-left: 4rem;
 }
 .app__header h1{
     font-family: var(--font-family);
@@ -33,10 +32,14 @@
     margin-top: 2.5rem;
 }
 @media (min-width: 970px){
-
+    .app__header-content{
+        margin-left: 4rem;
+    }
 }
 @media (min-width: 551px) and (max-width: 969px){
-
+    .app__header-content{
+        margin-left: 4rem;
+    }
 }
 @media (max-width: 550px){
     .app__header{

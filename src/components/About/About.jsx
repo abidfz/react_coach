@@ -12,12 +12,11 @@ const About = () => {
     <div className="app__about section__padding" id="about">
       <h2>À propos de moi</h2>
       <p>
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. At veritatis
-        quis autem pariatur reiciendis, facere, aliquid laudantium cum modi
-        necessitatibus sunt odio corporis? Quis sunt officiis ratione fuga
-        recusandae sed a quae iure corrupti ea repellendus aliquid impedit
-        nesciunt, dolore incidunt velit, mollitia quas! Laborum tempore fugit
-        laudantium expedita temporibus.
+        Chez Coach Sportif, nous croyons en l'équilibre entre l'exercice, la
+        nutrition et le bien-être mental. Chaque programme que je crée est
+        personnalisé en fonction de vos besoins, de vos objectifs et de votre
+        emploi du temps. Je m'engage à vous motiver, à vous guider et à vous
+        inspirer à chaque étape de votre parcours.
       </p>
       <ul className="app__about-cards">
         <li className="app__about-card">
@@ -69,6 +68,18 @@ const About = () => {
           </div>
         </li>
       </ul>
+      <div className="parallax"></div>
+      <div>
+        <p>
+          N'hésitez pas à explorer notre site pour en savoir plus sur nos
+          services, consulter les témoignages de clients et commencer votre
+          parcours vers une vie plus saine dès aujourd'hui.
+        </p>
+        <p>
+          Je suis impatient de vous accompagner dans cette aventure
+          enrichissante !
+        </p>
+      </div>
     </div>
   );
 };

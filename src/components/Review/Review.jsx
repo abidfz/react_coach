@@ -31,12 +31,15 @@ const Review = () => {
               <div className="app-caroussel-info-img">
                 <RxAvatar />
               </div>
-              <h3>nom prenom</h3>
+              <h3>Sarah L.</h3>
             </div>
             <p className="app-caroussel-container">
-              <span>“ </span>Lorem ipsum dolor sit amet consectetur adipisicing
-              elit. Reprehenderit enim ab corporis voluptatum eligendi quibusdam
-              fugiat omnis iure porro dolorum?<span>” </span>
+              <span>“ </span>Je suis ravie d'avoir choisi Coach Sportif pour me
+              remettre en forme après ma grossesse. Le coach a conçu un
+              programme d'entraînement qui correspondait exactement à mes
+              besoins post-partum. Les résultats sont incroyables, et je me sens
+              plus énergique que jamais. Merci pour votre soutien et votre
+              professionnalisme exceptionnels !<span>” </span>
             </p>
           </div>
           <div className="app-caroussel-card">
@@ -44,12 +47,15 @@ const Review = () => {
               <div className="app-caroussel-info-img">
                 <RxAvatar />
               </div>
-              <h3>nom prenom</h3>
+              <h3>Thomas B.</h3>
             </div>
             <p className="app-caroussel-container">
-              <span>“ </span>Lorem ipsum dolor sit amet consectetur adipisicing
-              elit. Reprehenderit enim ab corporis voluptatum eligendi quibusdam
-              fugiat omnis iure porro dolorum?<span>” </span>
+              <span>“ </span>Coach Sportif a changé ma vie ! J'ai perdu 10 kilos
+              en trois mois grâce à un programme d'entraînement et de nutrition
+              sur mesure. Le coach est incroyablement professionnel et dévoué.
+              Les séances sont toujours variées et adaptées à mes besoins. Si
+              vous cherchez un coach qui vous pousse à atteindre vos objectifs,
+              ne cherchez pas plus loin.<span>” </span>
             </p>
           </div>
           <div className="app-caroussel-card">
@@ -57,12 +63,15 @@ const Review = () => {
               <div className="app-caroussel-info-img">
                 <RxAvatar />
               </div>
-              <h3>nom prenom</h3>
+              <h3>Pierre G.</h3>
             </div>
             <p className="app-caroussel-container">
-              <span>“ </span>Lorem ipsum dolor sit amet consectetur adipisicing
-              elit. Reprehenderit enim ab corporis voluptatum eligendi quibusdam
-              fugiat omnis iure porro dolorum?<span>” </span>
+              <span>“ </span>Le coach est bien plus qu'un coach sportif, c'est
+              un véritable mentor. Son approche personnalisée m'a permis de
+              dépasser mes limites physiques et mentales. Les résultats parlent
+              d'eux-mêmes, et je recommande CoachFit à quiconque cherche à
+              atteindre ses objectifs de remise en forme de manière durable.
+              <span>” </span>
             </p>
           </div>
           <div className="app-caroussel-card">
@@ -70,25 +79,16 @@ const Review = () => {
               <div className="app-caroussel-info-img">
                 <RxAvatar />
               </div>
-              <h3>nom prenom</h3>
+              <h3>Marie D.</h3>
             </div>
             <p className="app-caroussel-container">
-              <span>“ </span>Lorem ipsum dolor sit amet consectetur adipisicing
-              elit. Reprehenderit enim ab corporis voluptatum eligendi quibusdam
-              fugiat omnis iure porro dolorum?<span>” </span>
-            </p>
-          </div>
-          <div className="app-caroussel-card">
-            <div className="app-caroussel-info">
-              <div className="app-caroussel-info-img">
-                <RxAvatar />
-              </div>
-              <h3>nom prenom</h3>
-            </div>
-            <p className="app-caroussel-container">
-              <span>“ </span>Lorem ipsum dolor sit amet consectetur adipisicing
-              elit. Reprehenderit enim ab corporis voluptatum eligendi quibusdam
-              fugiat omnis iure porro dolorum?<span>” </span>
+              <span>“ </span>J'ai commencé à m'entraîner avec coach sportif il y
+              a six mois, et je ne pourrais pas être plus satisfaite des
+              résultats. Le coaching personnalisé a vraiment fait la différence
+              pour moi. Les séances sont difficiles mais motivantes, et je me
+              suis rendu compte que je suis capable de bien plus que je ne le
+              pensais. Merci Coach pour m'avoir aidée à retrouver confiance en
+              moi !<span>” </span>
             </p>
           </div>
         </Carousel>

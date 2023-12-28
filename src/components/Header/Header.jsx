@@ -8,10 +8,13 @@ const Header = () => {
         <img src={coach} alt="" />
       </div>
       <div className="app__header-content">
-        <h1>Name</h1>
+        <h1>Coach</h1>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet ratione
-          ipsum voluptatem
+          Je suis un coach sportif certifié, passionné par la transformation
+          physique et mentale de mes clients. Fort d'une expérience de 4 années
+          dans le domaine du fitness, j'ai aidé de nombreuses personnes à
+          repousser leurs limites, à adopter un mode de vie sain et à retrouver
+          confiance en elles.
         </p>
       </div>
     </section>

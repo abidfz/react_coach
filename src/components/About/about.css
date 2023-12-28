@@ -1,9 +1,11 @@
 .app__about h2{
     text-align: center;
-
+}
+.app__about-cards{
+    margin: 4rem auto;
 }
 .app__about p{
-    margin: 1rem 0 4rem 0;
+    margin: 2rem 0 1rem 0;
 }
 .app__about-card{
     background: var(--color-bg-secondary);
@@ -28,6 +30,15 @@
     font-size: 1.2rem;
     margin-bottom: 1rem;
 }
+.parallax{
+    background-image: url(../../assets/coaching.jpg);background-attachment:fixed;
+    background-position:center;
+    background-repeat:no-repeat;
+    background-size:cover;
+    height: 50vh;
+}
+
+
 @media (min-width: 551px) and (max-width: 969px) {
 }
   
