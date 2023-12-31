@@ -35,8 +35,8 @@
     max-width: 13rem;
     margin: auto;transition: 0.5s;
 }
-.app__navbar_menu-item-cta:hover{
-    transform: scale(1.5);
+.app__navbar_menu-item-cta.active{
+    color: white
    }
 .app__navbar_menu-item:hover, .active{
     color: var(--secondary-color);
@@ -117,5 +117,8 @@
     }
     .app__navbar_menu-small{
         display: flex;
+    }
+    .app__navbar_menu-open .app__navbar_menu-item-cta{
+        display: block;
     }
 }
