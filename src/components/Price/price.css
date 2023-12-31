@@ -13,7 +13,7 @@
     margin: 1rem auto;
     padding: 1rem 2rem;
     border-radius: 5px;
-    transition: 0.5s;width: 380px;
+    transition: 0.5s;
 }
 .app__price-card:hover{
     transform: scale(1.1);
@@ -51,8 +51,11 @@
     font-size: 0.7rem;
 }
 @media (min-width: 970px){
-
+.app__price-card{
+        width: 380px;
+    }
 }
+
 @media (min-width: 551px) and (max-width: 969px){
     
 
@@ -61,7 +64,4 @@
     .app__price-cards{
         flex-direction: column;
     }
-    .app__price-card{
-        min-width: 80%;
-    }
-}
+}    

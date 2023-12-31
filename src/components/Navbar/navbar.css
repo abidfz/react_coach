@@ -6,7 +6,7 @@
     justify-content: space-between;
     position: sticky;
     top: 0;
-    z-index: 3;
+    z-index: 1001;
     background-color: var(--color-bg);
 }
 .app__navbar-menu-large{
@@ -22,6 +22,22 @@
     margin: 1rem;
     cursor: pointer;
 }
+.app__navbar_menu-item-cta{
+    background: var(--gradient-color);
+    color: var(--color-bg);
+    border-radius: 5px;
+    padding:0.5rem 0.9rem ;
+    font-family: var(--font-family);
+    font-weight: 500;
+    line-height: 25px;
+    text-align: center;
+    cursor: pointer;
+    max-width: 13rem;
+    margin: auto;transition: 0.5s;
+}
+.app__navbar_menu-item-cta:hover{
+    transform: scale(1.5);
+   }
 .app__navbar_menu-item:hover, .active{
     color: var(--secondary-color);
     padding-bottom: 0.5rem;
@@ -66,7 +82,6 @@
     font-family: var(--font-family);
     font-weight: 500;
     line-height: 25px;
-    cursor: pointer;
     text-align: center;
     max-width: 13rem;
     margin: auto;

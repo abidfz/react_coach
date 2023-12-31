@@ -57,10 +57,21 @@ const Navbar = () => {
           >
             Témoignages
           </Link>
+          <Link
+            className="app__navbar_menu-item-cta"
+            activeClass="active"
+            to="contact"
+            spy={true}
+            smooth={true}
+            offset={-50}
+            duration={500}
+          >
+            Contact
+          </Link>
         </div>
-        <div className="app__navbar_btn" to="contact">
+        {/* <div className="app__navbar_btn" to="contact">
           Contact
-        </div>
+        </div> */}
       </div>
       <div className="app__navbar_menu-small">
         {toggleMenu ? (
@@ -123,10 +134,21 @@ const Navbar = () => {
               >
                 Témoignages
               </Link>
+              <Link
+                className="app__navbar_menu-item-cta"
+                activeClass="active"
+                to="contact"
+                spy={true}
+                smooth={true}
+                offset={-50}
+                duration={500}
+              >
+                Contact
+              </Link>
             </div>
-            <div className="app__navbar_btn" to="contact">
+            {/* <div className="app__navbar_btn" to="contact">
               Contact
-            </div>
+            </div> */}
           </div>
         )}
       </div>

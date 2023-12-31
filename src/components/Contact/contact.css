@@ -81,20 +81,17 @@
     border-radius: 5px;
 }
 @media (min-width: 970px){
-    .app__contact {
+    .app__contact-section {
         display: flex;
         flex-direction: row-reverse;
         align-items: center;
         justify-content: space-evenly;
     }
     .app__contact-info{
-        margin-left: 2rem;
+        width: 40%;
     }
-    
-    
 }
 @media (min-width: 551px) and (max-width: 969px){
-    
 
 }
 @media (max-width: 550px){
